@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>bookmarks</title>
+	</head>
+
+	<body id="rainbow">
+		<a href="javascript:(
+    function(){
+      if(window.LUPNIX_BOOKMARKLET_IRC_ACTIVE === undefined) {
+      }
+
+      if(!window.LUPNIX_BOOKMARKLET_IRC_ACTIVE) {
+        var script= document.createElement('script');
+        script.src='https://rawgit.com/ravinggenius/bookmarklet/master/app.js';
+
+        document.body.appendChild(script);
+        window.LUPNIX_BOOKMARKLET_IRC_ACTIVE=true
+      }
+    })();">bookmarlet</a>
+
+		<p>text on the page</p>
+	</body>
+</html>
